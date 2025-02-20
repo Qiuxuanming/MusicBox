@@ -6,6 +6,8 @@ public class Main{
 
         System.out.println("Now playing the song");
         mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
+        System.out.println("Song ended");
+        System.out.println(" ");
         
         // --- TODO
 
@@ -15,11 +17,13 @@ public class Main{
          * 
          * 
         */
-        
+        MusicBox mbox2 = new MusicBox("A12BC34", 'N', "Sunshine", "Bright", 
+        "Journey to the West", "Pop", "Sunshine Records", "Morning Glory");
+
+        System.out.println("Now playing the song");
+        mbox2.playSong(mbox2.getSongID(), mbox2.getPremiumSong(), 1);
+        System.out.println("Song ended");
+        System.out.println(" ");
 
     }
 }
-
-
-
-
