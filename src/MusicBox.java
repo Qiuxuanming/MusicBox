@@ -36,10 +36,10 @@ public class MusicBox {
         return isSongPremium;
     }
 
-
     // -- TODO
         /* Create the rest of "getters" for the remaining variables */
     
+        /* The following method is complete. You don't have to do anything here. Just try to understand it. */
         public void playSong(String songID, char premium, int ads) {
             switch(premium){
                 case 'Y':
@@ -52,7 +52,9 @@ public class MusicBox {
                 break;
             }
         }
-    
+
+
+        /* The following method is complete. You don't have to do anything here. Just try to understand it. */
         private void playAd(int ads, char premium) {
             if (ads == 1) {
                 System.out.println("Playing Ad 1");
